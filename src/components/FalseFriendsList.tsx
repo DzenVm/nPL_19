@@ -22,8 +22,7 @@ export function FalseFriendsList() {
           </summary>
           <div className="mt-3 border-t border-rule pt-3 text-sm leading-relaxed text-ink-soft">
             <p>
-              <strong className="text-ink">„{pair.polish}”</strong> znaczy po prostu{" "}
-              {pair.polishMeaning} — po angielsku to{" "}
+              Po polsku to po prostu {pair.polishMeaning}. Po angielsku szukaj słowa{" "}
               <strong className="text-cobalt">{pair.correctEnglish}</strong>.
             </p>
             <p className="mt-2">{pair.note}</p>

@@ -35,7 +35,7 @@ function warsawParts(date: Date) {
 /**
  * New beginner/intermediate groups open every Monday. This computes the real
  * next Monday from the server clock in the Europe/Warsaw calendar, so the
- * date on screen is never stale or fabricated — just today's schedule fact.
+ * date on screen always matches the actual weekly schedule.
  */
 export function getNextIntake(now: Date = new Date()): NextIntake {
   const current = warsawParts(now);

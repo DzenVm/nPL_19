@@ -5,7 +5,7 @@ import { levels } from "@/content/levels";
 export const metadata: Metadata = {
   title: "Poziomy A1–C2",
   description:
-    "Pełny opis sześciu poziomów zaawansowania — od zupełnych podstaw po biegłość bliską native speakerowi — z przykładami tego, co realnie potrafisz na każdym z nich.",
+    "Pełny opis sześciu poziomów zaawansowania, od zupełnych podstaw po biegłość bliską native speakerowi, z przykładami tego, co realnie potrafisz na każdym z nich.",
 };
 
 export default function PoziomyPage() {
@@ -16,7 +16,7 @@ export default function PoziomyPage() {
         Sześć poziomów, opisanych bez żargonu
       </h1>
       <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-soft">
-        Skala A1–C2 pochodzi z ogólnoeuropejskich ram odniesienia dla języków — my dokładamy do
+        Skala A1–C2 pochodzi z ogólnoeuropejskich ram odniesienia dla języków. My dokładamy do
         niej to, co zwykle pomija oficjalny opis: kto naprawdę zaczyna na danym poziomie i co się
         zmienia, gdy się z niego wychodzi.
       </p>

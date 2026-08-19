@@ -3,7 +3,7 @@ import { site } from "@/content/site";
 
 export const metadata: Metadata = {
   title: "Regulamin",
-  description: `Zasady korzystania z zajęć organizowanych w ramach serwisu ${site.domain} — zapisy, płatności, odwoływanie zajęć, reklamacje.`,
+  description: `Zasady korzystania z zajęć organizowanych w ramach serwisu ${site.domain}: zapisy, odwoływanie zajęć, reklamacje.`,
 };
 
 export default function RegulaminPage() {
@@ -18,44 +18,43 @@ export default function RegulaminPage() {
         <p>
           Regulamin określa zasady korzystania z lekcji języka angielskiego organizowanych za
           pośrednictwem serwisu {site.domain}. Zajęcia prowadzone są zdalnie, w formie
-          wideorozmowy, dla osób pełnoletnich lub — za zgodą opiekuna prawnego — dla osób
+          wideorozmowy, dla osób pełnoletnich lub, za zgodą opiekuna prawnego, dla osób
           niepełnoletnich powyżej 16 roku życia.
         </p>
 
         <h2>2. Zakres usług</h2>
         <p>
           Oferujemy lekcje indywidualne, w parach oraz w minigrupach liczących od trzech do pięciu
-          osób, na poziomach od A1 do C2 według skali CEFR. Każda współpraca rozpoczyna się od
-          bezpłatnej lekcji próbnej, podczas której ustalany jest poziom i format zajęć.
+          osób, na poziomach od A1 do C2 według skali CEFR. Każda współpraca zaczyna się od
+          lekcji próbnej, podczas której ustalany jest poziom i format zajęć.
         </p>
 
-        <h2>3. Zapisy i płatności</h2>
+        <h2>3. Zapisy i organizacja zajęć</h2>
         <p>
-          Zapis następuje po ustaleniu terminu i formatu zajęć drogą mailową. Zajęcia rozliczane
-          są w cyklach miesięcznych, z góry, na podstawie liczby lekcji ustalonej dla danego
-          formatu. Ceny mają charakter orientacyjny i są potwierdzane indywidualnie przed
-          rozpoczęciem współpracy — zależą od poziomu, formatu i aktualnej dostępności lektorów.
+          Zapis następuje po ustaleniu terminu i formatu zajęć drogą mailową, na podstawie
+          lekcji próbnej. Potwierdzenie zawiera dzień i godzinę zajęć oraz dane kontaktowe
+          prowadzącego lektora.
         </p>
 
         <h2>4. Odwoływanie i odrabianie zajęć</h2>
         <p>
           Nieobecność zgłoszoną najpóźniej do końca dnia poprzedzającego lekcję traktujemy jako
-          odwołaną z możliwością odrobienia w innym terminie tego samego miesiąca rozliczeniowego.
-          Nieobecności zgłoszone później lub niezgłoszone rozpatrywane są indywidualnie — lektor
-          mógł już zaplanować ten czas i nie zawsze da się go odzyskać.
+          odwołaną, z możliwością odrobienia w innym terminie tego samego miesiąca. Nieobecności
+          zgłoszone później lub w ogóle niezgłoszone rozpatrujemy indywidualnie: lektor mógł już
+          zaplanować ten czas i nie zawsze da się go odzyskać.
         </p>
 
-        <h2>5. Rezygnacja i zwroty</h2>
+        <h2>5. Kończenie współpracy</h2>
         <p>
-          Rezygnacja z dalszych zajęć możliwa jest przed rozpoczęciem kolejnego cyklu
-          rozliczeniowego, bez podawania przyczyny i bez dodatkowych opłat. Jeśli opłacono z góry
-          lekcje, które nie odbędą się z przyczyn leżących po naszej stronie, zwracamy
-          równowartość tych zajęć.
+          Każda ze stron może zakończyć współpracę przed rozpoczęciem kolejnego cyklu zajęć, bez
+          podawania przyczyny. Informację o zakończeniu współpracy przyjmujemy mailowo. Jeśli
+          zajęcia nie odbędą się z przyczyn leżących po naszej stronie, proponujemy termin
+          zastępczy.
         </p>
 
         <h2>6. Reklamacje</h2>
         <p>
-          Reklamacje dotyczące jakości zajęć lub rozliczeń przyjmujemy na adres{" "}
+          Reklamacje dotyczące jakości zajęć zgłaszasz na adres{" "}
           <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>. Rozpatrujemy je w
           terminie do 14 dni kalendarzowych od zgłoszenia, o czym informujemy w odpowiedzi
           mailowej.
@@ -64,24 +63,24 @@ export default function RegulaminPage() {
         <h2>7. Odpowiedzialność</h2>
         <p>
           Nie ponosimy odpowiedzialności za przerwy w połączeniu wynikające z awarii po stronie
-          użytkownika (np. jakości łącza internetowego). W przypadku przerwy technicznej leżącej
-          po naszej stronie, która uniemożliwia przeprowadzenie lekcji, oferujemy termin
-          zastępczy bez dodatkowych kosztów.
+          użytkownika, na przykład jakości łącza internetowego. W przypadku przerwy technicznej
+          leżącej po naszej stronie, która uniemożliwia przeprowadzenie lekcji, oferujemy termin
+          zastępczy.
         </p>
 
         <h2>8. Prawo konsumenta do odstąpienia</h2>
         <p>
-          Konsumentowi przysługuje prawo odstąpienia od umowy zawartej na odległość w terminie 14
-          dni, zgodnie z ustawą o prawach konsumenta — z zastrzeżeniem, że jeśli lekcje
-          rozpoczną się na wyraźną prośbę konsumenta przed upływem tego terminu, prawo do
-          odstąpienia dotyczy proporcjonalnie tylko zajęć jeszcze nieodbytych.
+          Konsumentowi przysługuje prawo odstąpienia od umowy zawartej na odległość w terminie
+          14 dni, zgodnie z ustawą o prawach konsumenta. Jeśli zajęcia rozpoczną się na wyraźną
+          prośbę konsumenta przed upływem tego terminu, warunki odstąpienia ustalane są zgodnie z
+          obowiązującymi przepisami.
         </p>
 
         <h2>9. Postanowienia końcowe</h2>
         <p>
           W sprawach nieuregulowanych niniejszym regulaminem zastosowanie mają przepisy prawa
           polskiego. Spory, których nie uda się rozwiązać polubownie, rozstrzyga sąd właściwy
-          zgodnie z obowiązującymi przepisami; konsument może też skorzystać z pozasądowych
+          zgodnie z obowiązującymi przepisami. Konsument może też skorzystać z pozasądowych
           sposobów rozpatrywania reklamacji, w tym z platformy ODR Komisji Europejskiej.
         </p>
       </div>

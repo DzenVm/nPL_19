@@ -17,8 +17,8 @@ export async function StartDateWidget() {
         Najbliższy start grupy początkującej: <span className="font-display">{intake.label}</span>
       </p>
       <p className="text-sm text-ink-soft">
-        ({daysUntilLabel(intake.daysUntil)} — nowe grupy otwieramy w każdy poniedziałek, to zwykły
-        grafik, nie odliczanie promocji)
+        ({daysUntilLabel(intake.daysUntil)}. Nowe grupy otwieramy w każdy poniedziałek, to zwykły
+        grafik zajęć, nie sztuczny licznik.)
       </p>
     </div>
   );

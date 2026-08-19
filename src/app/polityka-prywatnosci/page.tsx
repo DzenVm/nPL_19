@@ -27,11 +27,10 @@ export default function PolitykaPrywatnosciPage() {
 
         <h2>Jakie dane przetwarzamy i po co</h2>
         <p>
-          <strong>Dane podane w korespondencji.</strong> Jeśli piszesz do nas e-mailem — w
-          sprawie lekcji próbnej, faktury czy pytania organizacyjnego — przetwarzamy dane, które
-          sam podasz: zwykle imię, adres e-mail, czasem numer telefonu lub dane firmy przy
-          fakturowaniu. Podstawa: podjęcie działań przed zawarciem umowy lub jej wykonanie
-          (art. 6 ust. 1 lit. b RODO).
+          <strong>Dane podane w korespondencji.</strong> Jeśli piszesz do nas e-mailem, w sprawie
+          lekcji próbnej czy pytania organizacyjnego, przetwarzamy dane, które sam podasz: zwykle
+          imię, adres e-mail, czasem numer telefonu. Podstawa: podjęcie działań przed zawarciem
+          umowy lub jej wykonanie (art. 6 ust. 1 lit. b RODO).
         </p>
         <p>
           <strong>Wybór zgody na cookies.</strong> Twój wybór dotyczący plików cookie zapisujemy
@@ -41,10 +40,10 @@ export default function PolitykaPrywatnosciPage() {
         </p>
         <p>
           <strong>Znacznik reklamowy.</strong> Wyłącznie jeśli wyrazisz zgodę na cookies
-          reklamowe, ładujemy skrypt pomiaru konwersji Google — przekazuje on Google ograniczone
-          dane o wizycie (m.in. adres IP, identyfikator kliknięcia w reklamę), żeby zmierzyć
-          skuteczność kampanii. Bez tej zgody skrypt w ogóle się nie ładuje. Podstawa: zgoda
-          (art. 6 ust. 1 lit. a RODO), którą możesz wycofać w każdej chwili, czyszcząc dane
+          reklamowe, ładujemy skrypt pomiaru konwersji Google. Przekazuje on Google ograniczone
+          dane o wizycie, między innymi adres IP i identyfikator kliknięcia w reklamę, żeby
+          zmierzyć skuteczność kampanii. Bez tej zgody skrypt w ogóle się nie ładuje. Podstawa:
+          zgoda (art. 6 ust. 1 lit. a RODO), którą możesz wycofać w każdej chwili, czyszcząc dane
           przeglądarki dla tej strony. Dane te przetwarza Google jako odrębny administrator, na
           zasadach opisanych we własnej polityce prywatności Google.
         </p>
@@ -59,17 +58,16 @@ export default function PolitykaPrywatnosciPage() {
         <h2>Jak długo przechowujemy dane</h2>
         <p>
           Korespondencję przechowujemy przez czas trwania współpracy i dodatkowo przez okres
-          przedawnienia ewentualnych roszczeń. Dane firmowe potrzebne do faktur przechowujemy
-          przez okres wymagany przepisami podatkowymi. Wybór zgody na cookies pozostaje w Twojej
+          przedawnienia ewentualnych roszczeń. Wybór zgody na cookies pozostaje w Twojej
           przeglądarce do czasu, aż go zmienisz lub wyczyścisz dane przeglądania.
         </p>
 
         <h2>Komu przekazujemy dane</h2>
         <p>
           Poza podmiotami technicznymi obsługującymi pocztę e-mail i hosting serwisu, dane
-          przekazujemy Google — wyłącznie w zakresie znacznika reklamowego i wyłącznie po Twojej
-          zgodzie. Nie sprzedajemy danych osobowych ani nie przekazujemy ich w celach
-          marketingowych podmiotom trzecim spoza tej listy.
+          przekazujemy Google, wyłącznie w zakresie znacznika reklamowego i wyłącznie po Twojej
+          zgodzie. Poza tą listą nie udostępniamy danych osobowych żadnym innym podmiotom
+          trzecim.
         </p>
 
         <h2>Twoje prawa</h2>
@@ -95,7 +93,7 @@ export default function PolitykaPrywatnosciPage() {
         <h2>Dobrowolność podania danych</h2>
         <p>
           Podanie danych jest zawsze dobrowolne, choć bez adresu e-mail nie umówimy lekcji
-          próbnej ani nie odpowiemy na zgłoszenie — trudno to zrobić bez sposobu kontaktu.
+          próbnej ani nie odpowiemy na zgłoszenie. Trudno to zrobić bez sposobu kontaktu.
         </p>
 
         <h2>Zmiany tej polityki</h2>

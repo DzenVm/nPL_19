@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
     default: "Angielski online dla dorosłych, którzy nie mają czasu do stracenia",
-    template: "%s — kurs angielskiego online",
+    template: "%s · kurs angielskiego online",
   },
   description:
     "Kurs języka angielskiego online dla dorosłych w Polsce: żywe lekcje, nauka dopasowana do poziomu A1–C2, jasne zasady i realny plan nauki bez pustych obietnic.",

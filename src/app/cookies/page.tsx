@@ -19,35 +19,35 @@ export default function CookiesPage() {
         <h2>Czym są pliki cookie</h2>
         <p>
           To niewielkie pliki tekstowe zapisywane w Twojej przeglądarce. Część z nich to zwykłe
-          pliki cookie, część to podobne mechanizmy przeglądarki, jak localStorage — na potrzeby
+          pliki cookie, część to podobne mechanizmy przeglądarki, jak localStorage. Na potrzeby
           tej strony traktujemy je tak samo, bo pełnią tę samą funkcję: zapamiętują coś między
           jedną wizytą a drugą.
         </p>
 
         <h2>Z czego korzystamy dokładnie</h2>
         <p>
-          <strong>Zapis Twojego wyboru zgody.</strong> Gdy zamkniesz baner cookies — niezależnie
-          od wybranej opcji — zapisujemy tę decyzję w localStorage przeglądarki, żeby nie pytać o
-          nią przy każdej kolejnej wizycie. To jedyny mechanizm, który działa zawsze, bez względu
-          na Twój wybór — bez niego baner wyświetlałby się w kółko.
+          <strong>Zapis Twojego wyboru zgody.</strong> Gdy zamkniesz baner cookies, niezależnie od
+          wybranej opcji, zapisujemy tę decyzję w localStorage przeglądarki, żeby nie pytać o nią
+          przy każdej kolejnej wizycie. To jedyny mechanizm, który działa zawsze, bez względu na
+          Twój wybór. Bez niego baner wyświetlałby się w kółko.
         </p>
         <p>
           <strong>Znacznik reklamowy Google.</strong> Ładuje się wyłącznie wtedy, gdy w banerze
           wybierzesz „Akceptuj wszystkie” albo osobno zaznaczysz zgodę na cookies reklamowe.
-          Służy do pomiaru skuteczności kampanii reklamowych — pozwala sprawdzić, czy kliknięcie w
-          reklamę zakończyło się np. wysłaniem wiadomości ze zgłoszeniem. Jeśli nie wyrazisz
-          zgody, ten skrypt w ogóle nie zostanie pobrany przez przeglądarkę — nie chodzi o
+          Służy do pomiaru skuteczności kampanii reklamowych: pozwala sprawdzić, czy kliknięcie w
+          reklamę zakończyło się na przykład wysłaniem wiadomości ze zgłoszeniem. Jeśli nie
+          wyrazisz zgody, ten skrypt w ogóle nie zostanie pobrany przez przeglądarkę. Nie chodzi o
           ukrycie go czy wyłączenie działania, on po prostu się nie ładuje.
         </p>
         <p>
-          Nie używamy żadnych innych plików cookie — nie ma tu osobnego licznika analitycznego
-          ani cookies społecznościowych, bo strona nie osadza żadnych widżetów tego typu.
+          Nie używamy żadnych innych plików cookie. Nie ma tu osobnego licznika analitycznego ani
+          cookies społecznościowych, bo strona nie osadza żadnych widżetów tego typu.
         </p>
 
         <h2>Jak zmienić swój wybór</h2>
         <p>
           Wybór dotyczący cookies reklamowych możesz zmienić w dowolnym momencie, czyszcząc dane
-          witryny w ustawieniach przeglądarki dla adresu {site.domain} — baner zgody pojawi się
+          witryny w ustawieniach przeglądarki dla adresu {site.domain}. Baner zgody pojawi się
           wtedy ponownie przy następnej wizycie. Możesz też zablokować pliki cookie całkowicie w
           ustawieniach przeglądarki; strona będzie wtedy działać identycznie, poza tym, że baner
           zgody może wyświetlać się częściej, bo przeglądarka nie zapamięta Twojego wyboru.
@@ -56,7 +56,7 @@ export default function CookiesPage() {
         <h2>Cookies stron trzecich</h2>
         <p>
           Jedynym podmiotem trzecim, który może otrzymać dane za pośrednictwem cookies, jest
-          Google — i tylko w zakresie znacznika reklamowego opisanego wyżej, tylko po Twojej
+          Google, i tylko w zakresie znacznika reklamowego opisanego wyżej, tylko po Twojej
           zgodzie. Więcej informacji o tym, jak Google przetwarza te dane, znajdziesz w polityce
           prywatności Google.
         </p>

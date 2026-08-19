@@ -57,8 +57,8 @@ export function LevelQuiz() {
           ))}
         </ul>
         <p className="mt-5 text-xs text-ink-faint">
-          To orientacyjna samoocena, nie certyfikat — dokładny poziom potwierdzamy na bezpłatnej
-          lekcji próbnej, w rozmowie z lektorem.
+          To orientacyjna samoocena, nie certyfikat. Dokładny poziom potwierdzamy na lekcji
+          próbnej, w rozmowie z lektorem.
         </p>
         <div className="mt-6 flex flex-wrap gap-3">
           <Link

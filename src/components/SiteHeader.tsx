@@ -8,7 +8,7 @@ export function SiteHeader() {
         <Link
           href="/"
           className="font-display text-lg font-semibold tracking-tight text-ink"
-          aria-label={`${site.domain} — strona główna`}
+          aria-label={`${site.domain}, strona główna`}
         >
           {site.domain}
         </Link>

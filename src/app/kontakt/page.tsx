@@ -3,7 +3,7 @@ import { site } from "@/content/site";
 
 export const metadata: Metadata = {
   title: "Kontakt",
-  description: `Jak umówić bezpłatną lekcję próbną i skontaktować się w innych sprawach dotyczących ${site.domain}.`,
+  description: `Jak umówić lekcję próbną i skontaktować się w innych sprawach dotyczących ${site.domain}.`,
 };
 
 export default function KontaktPage() {
@@ -14,28 +14,29 @@ export default function KontaktPage() {
         Piszesz do jednego adresu, odpisuje człowiek
       </h1>
       <p className="mt-5 text-lg leading-relaxed text-ink-soft">
-        Nie ma tu infolinii ani automatycznego bota z menu na dziewięć opcji — jest jeden adres, na
+        Nie ma tu infolinii ani automatycznego bota z menu na dziewięć opcji. Jest jeden adres, na
         który trafiają zarówno zgłoszenia na lekcję próbną, jak i pytania organizacyjne.
       </p>
 
       <div className="prose-article">
         <h2>Adres e-mail</h2>
         <p>
-          <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a> — odpowiadamy zwykle w
+          <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>. Odpowiadamy zwykle w
           ciągu jednego, maksymalnie dwóch dni roboczych.
         </p>
 
-        <h2>Chcesz umówić bezpłatną lekcję próbną</h2>
+        <h2>Chcesz umówić lekcję próbną</h2>
         <p>
-          Napisz w kilku zdaniach, czego dotyczy twoja sytuacja (praca, wyjazd, odświeżenie
-          języka po przerwie) i jakie pory dnia zwykle ci pasują. Zaproponujemy dwa lub trzy
+          Napisz w kilku zdaniach, czego dotyczy twoja sytuacja: praca, wyjazd, odświeżenie
+          języka po przerwie. Dodaj, jakie pory dnia zwykle ci pasują. Zaproponujemy dwa lub trzy
           konkretne terminy zamiast prosić cię o wypełnianie formularza dostępności.
         </p>
 
-        <h2>Sprawy związane z fakturą dla pracodawcy</h2>
+        <h2>Piszesz w imieniu zespołu</h2>
         <p>
-          Podaj dane firmy od razu w pierwszej wiadomości — nazwę, adres i NIP. Oszczędza to
-          wymiany kilku dodatkowych e-maili, zanim wystawimy pierwszą fakturę.
+          Jeśli zgłaszasz kilka osób naraz, na przykład współpracowników z jednego działu, podaj
+          od razu ich liczbę i orientacyjny poziom każdej z nich. Łatwiej wtedy dobrać wspólny
+          termin i dopasować tempo zajęć do całej grupy.
         </p>
 
         <h2>Sprawy dotyczące danych osobowych</h2>
@@ -48,9 +49,9 @@ export default function KontaktPage() {
         <h2>Kim jesteśmy</h2>
         <p>
           Zajęcia koordynuje jedna osoba, a prowadzi je niewielki, zmieniający się w czasie zespół
-          lektorów — to nie wielka szkoła językowa z siecią oddziałów, tylko usługa prowadzona na
-          mniejszą skalę. Pełne dane do umowy (w tym dane rejestrowe) przekazujemy na etapie
-          zapisu na kurs, nie publikujemy ich z góry na stronie.
+          lektorów. To nie wielka szkoła językowa z siecią oddziałów, tylko usługa prowadzona na
+          mniejszą skalę. Pełne dane do umowy przekazujemy na etapie zapisu na kurs, nie
+          publikujemy ich z góry na stronie.
         </p>
       </div>
     </div>

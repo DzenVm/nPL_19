@@ -10,8 +10,8 @@ export function SiteFooter() {
           <div className="lg:col-span-2">
             <p className="font-display text-xl font-semibold text-paper">{site.domain}</p>
             <p className="mt-3 max-w-sm text-sm leading-relaxed text-paper-dim/80">
-              Serwis edukacyjny poświęcony nauce języka angielskiego online — bez logotypu, bez
-              nazwy własnej, bo liczy się to, co dzieje się na lekcji, a nie jak nazywa się strona.
+              Serwis edukacyjny poświęcony nauce języka angielskiego online. Bez logotypu i bez
+              nazwy własnej, bo liczy się to, co dzieje się na lekcji, nie jak nazywa się strona.
             </p>
           </div>
 

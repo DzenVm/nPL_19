@@ -60,7 +60,7 @@
 }
 
 @layer components {
-  /* subtle paper grain — replaces a flat fill with something a printed page would have */
+  /* subtle paper grain, so the background reads like a printed page, not a flat fill */
   .bg-grain {
     position: relative;
     isolation: isolate;

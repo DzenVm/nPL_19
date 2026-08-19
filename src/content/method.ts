@@ -5,27 +5,27 @@ export type Principle = {
 
 export const methodPrinciples: Principle[] = [
   {
-    title: "Mówisz od pierwszej lekcji, nie od dziesiątej",
-    body: "Klasyczna kolejność „najpierw gramatyka, potem mówienie” sprawdza się w podręczniku, a nie w głowie dorosłego człowieka, który już umie mówić — tylko w innym języku. Zaczynamy od produkcji: budujesz zdania, popełniasz błędy, słyszysz poprawkę i próbujesz jeszcze raz. Gramatyka wchodzi jako wyjaśnienie tego, co już próbowałeś powiedzieć, nie jako teoria przed praktyką.",
+    title: "Mówisz od pierwszej lekcji",
+    body: "Klasyczna kolejność każe najpierw poznać regułę, potem spróbować ją zastosować. Dla dorosłego, który już potrafi budować myśli, tylko w innym języku, to kolejność odwrócona. Zaczynamy od próby powiedzenia czegoś, nawet niedoskonale. Gramatyka pojawia się później, jako wyjaśnienie tego, co już próbowałeś wypowiedzieć.",
   },
   {
-    title: "Poprawki bez przerywania w połowie zdania",
-    body: "Przerywanie komuś w trakcie wypowiedzi, żeby poprawić szyk albo końcówkę, uczy jednej rzeczy: żeby mówić mniej. Lektor notuje błędy podczas twojej wypowiedzi i wraca do nich po jej zakończeniu — dzięki temu ćwiczysz też coś, czego żaden podręcznik nie nauczy: kończenie myśli mimo niepewności.",
+    title: "Poprawki czekają do końca wypowiedzi",
+    body: "Przerywanie komuś w połowie zdania, żeby poprawić końcówkę czy szyk, uczy jednej rzeczy: mówić mniej i ostrożniej. Lektor notuje błędy w trakcie twojej wypowiedzi i wraca do nich, kiedy skończysz. Dzięki temu ćwiczysz też coś, czego żaden podręcznik nie nauczy: kończenie myśli mimo niepewności.",
   },
   {
     title: "Słownictwo wraca, zanim zdążysz je zapomnieć",
-    body: "Nowe słowo usłyszane raz znika z pamięci w ciągu kilku dni — to nie kwestia zdolności, tylko biologii. Dlatego słownictwo z każdej lekcji wraca celowo: najpierw następnego dnia w krótkim podsumowaniu, potem po tygodniu, potem po miesiącu. Odstępy rosną, ale słowo nigdy nie znika z rotacji na dobre.",
+    body: "Nowe słowo usłyszane raz znika z pamięci po kilku dniach. To nie kwestia zdolności, tylko zwykłej biologii pamięci. Słownictwo z każdej lekcji wraca więc celowo: najpierw następnego dnia w krótkim podsumowaniu, potem po tygodniu, potem po miesiącu. Odstępy rosną, ale słowo nie znika z rotacji na dobre.",
   },
   {
-    title: "Materiał dopasowany do sytuacji, nie do rozdziału książki",
-    body: "Jeśli uczysz się angielskiego do pracy w logistyce, nie potrzebujesz słownictwa o rezerwacji hotelu na Bahamach. Lektor buduje ćwiczenia wokół realnych sytuacji ucznia — maili, które faktycznie piszesz, rozmów, które faktycznie prowadzisz — zamiast trzymać się z góry ustalonego spisu treści.",
+    title: "Ćwiczenia budowane wokół twojej sytuacji",
+    body: "Ktoś uczący się angielskiego do pracy w logistyce nie potrzebuje słownictwa o rezerwacji hotelu na Bahamach. Lektor buduje ćwiczenia wokół realnych sytuacji ucznia: maili, które faktycznie piszesz, rozmów, które faktycznie prowadzisz. Gotowy spis treści zostaje na drugim planie.",
   },
   {
-    title: "Wymowa trenowana przez kontrast, nie przez powtarzanie",
-    body: "Samo powtarzanie słowa dziesięć razy rzadko poprawia wymowę, jeśli ucho nie słyszy różnicy między dźwiękami. Ćwiczymy pary trudne dla Polaków — jak „ship” i „sheep”, albo bezdźwięczne „th” — zestawiając je obok siebie, żeby mózg najpierw nauczył się słyszeć różnicę, zanim spróbuje ją wypowiedzieć.",
+    title: "Ucho ćwiczy się przed językiem",
+    body: "Powtarzanie słowa dziesięć razy rzadko poprawia wymowę, jeśli ucho nie słyszy różnicy między dźwiękami. Ćwiczymy pary trudne dla Polaków, jak „ship” i „sheep”, albo bezdźwięczne „th”, zestawiając je obok siebie. Mózg najpierw uczy się słyszeć różnicę. Dopiero potem próbuje ją wypowiedzieć.",
   },
   {
-    title: "Krótkie podsumowanie po każdej lekcji, nie po kursie",
-    body: "Po każdych zajęciach dostajesz notatkę: co się pojawiło, co warto powtórzyć, co poszło dobrze. Nie czekamy do końca semestru z informacją zwrotną — jeśli coś trzeba skorygować w sposobie nauki, dzieje się to na bieżąco, a nie po fakcie.",
+    title: "Krótka notatka po każdej lekcji",
+    body: "Po każdych zajęciach dostajesz kilka zdań: co się pojawiło, co warto powtórzyć, co poszło dobrze. Informacja zwrotna nie czeka do końca semestru. Jeśli coś trzeba skorygować w sposobie nauki, dzieje się to na bieżąco.",
   },
 ];

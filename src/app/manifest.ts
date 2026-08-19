@@ -3,10 +3,10 @@ import { site } from "@/content/site";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: `Kurs angielskiego online — ${site.domain}`,
+    name: `Kurs angielskiego online, ${site.domain}`,
     short_name: site.domain,
     description:
-      "Kurs języka angielskiego online dla dorosłych w Polsce — żywe lekcje, poziomy A1–C2.",
+      "Kurs języka angielskiego online dla dorosłych w Polsce: żywe lekcje, poziomy A1–C2.",
     start_url: "/",
     display: "standalone",
     background_color: "#f7f1e4",

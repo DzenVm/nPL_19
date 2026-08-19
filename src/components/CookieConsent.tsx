@@ -53,7 +53,7 @@ export function CookieConsent() {
     >
       <div className="mx-auto flex max-w-6xl flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
         <p className="max-w-2xl text-sm leading-relaxed text-ink-soft">
-          Ta strona zapisuje w Twojej przeglądarce wybór dotyczący plików cookie — to plik
+          Ta strona zapisuje w Twojej przeglądarce wybór dotyczący plików cookie. To plik
           niezbędny do samego działania tego komunikatu. Za Twoją zgodą włączymy też znacznik
           reklamowy, który pozwala mierzyć skuteczność kampanii. Bez zgody strona działa
           identycznie, po prostu bez tego pomiaru. Szczegóły w{" "}
@@ -96,11 +96,11 @@ export function CookieConsent() {
               checked
               disabled
               className="mt-0.5 h-4 w-4 accent-ink-faint"
-              aria-label="Niezbędne — zawsze aktywne"
+              aria-label="Niezbędne, zawsze aktywne"
             />
             <span>
-              <strong className="text-ink">Niezbędne</strong> — zapamiętują Twój wybór zgody.
-              Zawsze aktywne.
+              <strong className="text-ink">Niezbędne.</strong> Zapamiętują Twój wybór zgody i nic
+              więcej. Zawsze aktywne.
             </span>
           </label>
           <label className="flex items-start gap-3 text-sm text-ink-soft">
@@ -111,7 +111,7 @@ export function CookieConsent() {
               className="mt-0.5 h-4 w-4 accent-cobalt"
             />
             <span>
-              <strong className="text-ink">Reklamowe</strong> — znacznik konwersji kampanii
+              <strong className="text-ink">Reklamowe.</strong> Znacznik konwersji kampanii
               reklamowych.
             </span>
           </label>
