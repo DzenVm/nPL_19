@@ -1,7 +1,6 @@
-import { Suspense } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { StartDateWidget, StartDateWidgetFallback } from "@/components/StartDateWidget";
+import { StartDateWidget } from "@/components/StartDateWidget";
 import { LevelQuiz } from "@/components/LevelQuiz";
 import { FalseFriendsList } from "@/components/FalseFriendsList";
 import { audienceSegments } from "@/content/audience";
@@ -47,9 +46,7 @@ export default function HomePage() {
             </p>
 
             <div className="mt-8">
-              <Suspense fallback={<StartDateWidgetFallback />}>
-                <StartDateWidget />
-              </Suspense>
+              <StartDateWidget />
             </div>
           </div>
 

@@ -1,4 +1,4 @@
-import { connection } from "next/server";
+import { cacheLife } from "next/cache";
 import { getNextIntake } from "@/lib/nextIntake";
 
 function daysUntilLabel(daysUntil: number) {
@@ -7,8 +7,14 @@ function daysUntilLabel(daysUntil: number) {
   return `za ${daysUntil} dni`;
 }
 
+/**
+ * Cached and revalidated hourly rather than computed per request, so this
+ * renders identically for every visitor and every crawler: no user-agent
+ * based rendering branch, just a cached calendar fact.
+ */
 export async function StartDateWidget() {
-  await connection();
+  "use cache";
+  cacheLife("hours");
   const intake = getNextIntake();
 
   return (
@@ -20,14 +26,6 @@ export async function StartDateWidget() {
         ({daysUntilLabel(intake.daysUntil)}. Nowe grupy otwieramy w każdy poniedziałek, to zwykły
         grafik zajęć, nie sztuczny licznik.)
       </p>
-    </div>
-  );
-}
-
-export function StartDateWidgetFallback() {
-  return (
-    <div className="flex items-center gap-3 rounded-sm border border-cobalt/25 bg-cobalt-soft/40 px-5 py-4">
-      <p className="text-sm text-ink-soft">Sprawdzamy najbliższy termin startu grupy…</p>
     </div>
   );
 }

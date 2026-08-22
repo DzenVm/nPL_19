@@ -10,12 +10,14 @@ wątki na osobnych podstronach.
 ## Stos technologiczny i czym się wyróżnia
 
 - **Next.js 16** (App Router) + React 19 + TypeScript, z włączonym
-  **Cache Components** (`cacheComponents: true`). Strona główna jest w
-  większości statycznym shellem HTML. Jedyną prawdziwą dziurą dynamiczną
-  jest widżet „najbliższy start grupy”, liczony z bieżącej daty serwera w
-  strefie `Europe/Warsaw` przez `connection()` + `<Suspense>`. To zwykły
-  grafik zajęć, nie sztuczny licznik: grupy realnie startują w każdy
-  poniedziałek.
+  **Cache Components** (`cacheComponents: true`). Cała strona, łącznie z
+  widżetem „najbliższy start grupy”, jest w pełni statycznym shellem HTML
+  (`"use cache"` + `cacheLife("hours")`, patrz `src/components/StartDateWidget.tsx`),
+  odświeżanym co godzinę, a nie liczonym per-request przez `connection()`.
+  Celowo unikamy tu jakiejkolwiek różnicy w ścieżce renderowania między
+  botem a odwiedzającym: każdy dostaje dokładnie tę samą, wygenerowaną
+  wcześniej stronę. Data w widżecie to zwykły grafik zajęć, nie sztuczny
+  licznik: grupy realnie startują w każdy poniedziałek.
 - **Tailwind CSS v4** (silnik CSS-first, `@theme` w `globals.css`) zamiast
   klasycznego `tailwind.config.js` czy ręcznych CSS Modules. Własne tokeny
   koloru i typografii zarejestrowane jako zmienne motywu.
@@ -97,6 +99,12 @@ scripts/generate-images.mjs    # generator obrazów (Playwright + SVG)
 - Brak fałszywych opinii, ocen czy liczników uczniów. Brak fałszywego
   odliczania: widżet startu grupy pokazuje realną datę najbliższego
   poniedziałku, nie malejącą pulę „ostatnich miejsc”.
+- Zero cloakingu: brak middleware, przekierowań czy logiki opartej na
+  user-agencie lub IP. Cała strona jest w pełni statyczna (patrz punkt
+  wyżej o Cache Components), więc bot i człowiek dostają identyczny HTML.
+  Treść w zwiniętych `<details>` (FAQ, fałszywi przyjaciele, menu mobilne)
+  jest zawsze obecna w DOM, tylko zwinięta wizualnie, tak samo dla
+  wyszukiwarek jak i dla odwiedzających.
 - Serwis celowo nie podaje na stronie żadnych kwot ani stawek. Wszystkie
   szczegóły organizacyjne ustalane są indywidualnie w bezpośrednim
   kontakcie, opisanym na `/kontakt`.
